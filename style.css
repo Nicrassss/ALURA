@@ -64,3 +64,28 @@ font-size: 32px;
     border: 2px solid var(--borda)
     margin-top: 32px;
 }
+
+.parametro-titulo{
+    font-family: var(--roboto);
+    font-size: 28px;
+}
+
+.parametro-senha_titulo{
+    font-size: 28px;
+}
+
+.parametro-coluna_senha{
+    display: flex;
+    flex-direction: column;
+}
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 780px) {
+    .parametro-coluna_senha{
+        flex-direction: row;
+    }
+    
+}
